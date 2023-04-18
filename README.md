@@ -1,4 +1,4 @@
-# PPN_Database_Constructione
+# PPN_Database_Construction
 Database and machine learning scripts used for the following work:
 
 "Large-Scale Construction and Analysis of Amorphous Porous Polymer Network Materials" [Link to be updated]()  
