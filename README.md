@@ -8,7 +8,7 @@ Database and machine learning scripts used for the following work:
 
 <br/>
 
-* **Database**
+# Database
   * The Database can be downloaded in a following manner.
     
   ```
