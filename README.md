@@ -9,6 +9,7 @@ Database and machine learning scripts used for the following work:
 <br/>
 
 # Database
+
   * The Database can be downloaded in a following manner.
     
      ```
@@ -32,8 +33,6 @@ Database and machine learning scripts used for the following work:
     
 # ML_Scripts
 
-  * This folder contains scripts for machine learning training in juypter notebook format. 
-  * 
   * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. You might need to specify a version of `torch` depending on your GPU driver.
      ```
      conda create -n PPN python=3.9 -y && conda activate PPN
