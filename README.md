@@ -10,7 +10,8 @@ Database and machine learning scripts used for the following work:
 
 * **Database**
 
-  * This folder contains all generated PPN structures and their corresponding momnomers.
+  * The Database can be downloaded in a following manner.
+    
   ```
   mkdir Database  # skip if there already exists
 
