@@ -33,11 +33,24 @@ Database and machine learning scripts used for the following work:
     
 # ML_Scripts
 
-  * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. You might need to specify a version of `torch` depending on your GPU driver.
+  * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. Please activate the environment while running the scripts.
+    (You might need to specify a version of `torch` depending on your GPU driver.)
      ```
      conda create -n PPN python=3.9 -y && conda activate PPN
      pip install pandas matplotlib torch scikit-learn skorch numpy==1.23.0 schnetpack==1.0.0
      ```
+  * Download machine learning inputs as follow:
+    
+     ```
+     # Download chemical descriptors
+     wget https://figshare.com/ndownloader/files/48176662 -O ML_Scripts/mordred_descriptors.csv
+     
+     # Download molecular fingerprints
+     wget https://figshare.com/ndownloader/files/48176656 -O ML_Scripts/ECFP_fingerprint.csv
+
+     # Download schnet inputs
+     wget https://figshare.com/ndownloader/files/48176659 -O ML_Scripts/schnet_input_new.xyz
+     
 
   * 'Random_Forest.ipynb' contains scripts for RF, using chemical descriptor as an input. Descriptor used in this work was obtained using [`mordred`](https://github.com/mordred-descriptor/mordred) python library.
     
