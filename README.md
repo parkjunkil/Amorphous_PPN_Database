@@ -8,7 +8,7 @@ Database and machine learning scripts used for the following work:
 
 <br/>
 
-* **database**
+* **Database**
 
   * This folder contains all generated PPN structures and their corresponding momnomers. 
   * 'monomers.tar.gz' contains all generated PPN momnomers in .xyz file format. 
@@ -16,7 +16,7 @@ Database and machine learning scripts used for the following work:
   * 'property.csv' contains calculated pore volume and surface area of amorphous PPNs in the database.
   * More details about database construction could be found in the original paper.
     
-* **scripts**
+* **ML_Scripts**
 
   * This folder contains scripts for machine learning prediction in juypter notebook file format. We used information of monomers as an input to predict surface area of amorphous PPNs. We tested three different input representations: descriptor, fingerprint, and graph
   * 'descriptor' folder contians scripts for RF, LGBM and MLP model using molecular descriptor as an input. Descriptor used in this work was obtained using mordred python library.
