@@ -32,7 +32,13 @@ Database and machine learning scripts used for the following work:
     
 # ML_Scripts
 
-  * This folder contains scripts for machine learning prediction in juypter notebook file format. We used information of monomers as an input to predict surface area of amorphous PPNs. We tested three different input representations: descriptor, fingerprint, and graph
+  * This folder contains scripts for machine learning training in juypter notebook format. We used information of monomers as an input to predict surface area of amorphous PPNs. We tested three different input representations: descriptor, fingerprint, and graph
+  * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. You might need to specify a version of `torch` depending on your GPU driver.
+  ```
+  conda create -n PPN python=3.9 -y && conda activate PPN
+  pip install pandas matplotlib torch scikit-learn skorch numpy==1.23.0 schnetpack==1.0.0
+  ```
+
   * 'descriptor' folder contians scripts for RF, LGBM and MLP model using molecular descriptor as an input. Descriptor used in this work was obtained using mordred python library.
   * 'fingerprint' folder contians scripts for MLP model using fingerprint as an input. Among various fingerprints, ECFP was selected for this work.
   * 'graph' folder contians scripts for schnet model, which is one of the most well-known graph based models.
