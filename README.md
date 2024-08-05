@@ -24,7 +24,7 @@ Database and machine learning scripts used for the following work:
   * 'structures.tar.gz' contains structures after self-assembly simulation in .cif file format.
   * 'monomers.tar.gz' contains all generated PPN momnomers in .xyz file format.
 
-  * We provide extracted chemical descriptors, molecular fingerprints and SchNet input in the ML_Scripts folder. Therefore, if you only want to run the ML training scripts, you dont need to download the database.
+  * We provide extracted chemical descriptors, molecular fingerprints and SchNet input in the ML_Scripts folder. Therefore, if you only want to run the ML training scripts, you don't need to download the database.
 
   * More details about database construction could be found in the original paper.
  
