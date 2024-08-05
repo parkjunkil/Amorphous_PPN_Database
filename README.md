@@ -10,10 +10,19 @@ Database and machine learning scripts used for the following work:
 
 * **Database**
 
-  * This folder contains all generated PPN structures and their corresponding momnomers. 
-  * 'monomers.tar.gz' contains all generated PPN momnomers in .xyz file format. 
+  * This folder contains all generated PPN structures and their corresponding momnomers.
+  ```
+  mkdir Database  # skip if there already exists
+
+  ## Download Amorphous PPN structures
+  wget https://figshare.com/ndownloader/files/48171718 -O Database/structures.tar.gz
+  
+  ## Download PPN monomers (Optional)
+  wget https://figshare.com/ndownloader/files/48171715 -O Database/monomers.tar.gz
+  ```
+
   * 'structures.tar.gz' contains structures after self-assembly simulation in .cif file format.
-  * 'property.csv' contains calculated pore volume and surface area of amorphous PPNs in the database.
+  * 'monomers.tar.gz' contains all generated PPN momnomers in .xyz file format. 
   * More details about database construction could be found in the original paper.
     
 * **ML_Scripts**
