@@ -44,3 +44,5 @@ Database and machine learning scripts used for the following work:
   * 'DNN.ipynb' contains scripts for DNN model, using molecular fingerprint as an input. Among various fingerprints, ECFP was selected for this work.
     
   * 'Schnet.ipynb' contains scripts for SchNet model, which is one of the most well-known graph-based models.
+
+  * Various methods have been utilized during data-processing and model training. More details can be found in the original paper. 
