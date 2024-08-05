@@ -30,7 +30,7 @@ Database and machine learning scripts used for the following work:
  
     
     
-* **ML_Scripts**
+# ML_Scripts
 
   * This folder contains scripts for machine learning prediction in juypter notebook file format. We used information of monomers as an input to predict surface area of amorphous PPNs. We tested three different input representations: descriptor, fingerprint, and graph
   * 'descriptor' folder contians scripts for RF, LGBM and MLP model using molecular descriptor as an input. Descriptor used in this work was obtained using mordred python library.
