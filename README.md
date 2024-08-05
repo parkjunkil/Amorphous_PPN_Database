@@ -11,15 +11,15 @@ Database and machine learning scripts used for the following work:
 # Database
   * The Database can be downloaded in a following manner.
     
-  ```
-  mkdir Database  # skip if there already exists
-
-  # Download Amorphous PPN structures
-  wget https://figshare.com/ndownloader/files/48171718 -O Database/structures.tar.gz
-  
-  # Download PPN monomers (Optional)
-  wget https://figshare.com/ndownloader/files/48171715 -O Database/monomers.tar.gz
-  ```
+     ```
+     mkdir Database  # skip if there already exists
+    
+     # Download Amorphous PPN structures
+     wget https://figshare.com/ndownloader/files/48171718 -O Database/structures.tar.gz
+     
+     # Download PPN monomers (Optional)
+     wget https://figshare.com/ndownloader/files/48171715 -O Database/monomers.tar.gz
+     ```
 
   * 'structures.tar.gz' contains structures after self-assembly simulation in .cif file format.
   * 'monomers.tar.gz' contains all generated PPN momnomers in .xyz file format.
@@ -35,10 +35,10 @@ Database and machine learning scripts used for the following work:
   * This folder contains scripts for machine learning training in juypter notebook format. 
   * 
   * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. You might need to specify a version of `torch` depending on your GPU driver.
-  ```
-  conda create -n PPN python=3.9 -y && conda activate PPN
-  pip install pandas matplotlib torch scikit-learn skorch numpy==1.23.0 schnetpack==1.0.0
-  ```
+     ```
+     conda create -n PPN python=3.9 -y && conda activate PPN
+     pip install pandas matplotlib torch scikit-learn skorch numpy==1.23.0 schnetpack==1.0.0
+     ```
 
   * 'Random_Forest.ipynb' contains scripts for RF, using chemical descriptor as an input. Descriptor used in this work was obtained using [`mordred`](https://github.com/mordred-descriptor/mordred) python library.
     
