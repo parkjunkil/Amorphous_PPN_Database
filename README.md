@@ -1,7 +1,10 @@
 # Amorphous PPN Database Construction
+[[`Paper`](To be uploaded)]
+[[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
+
 Database and machine learning scripts used for the following work:
 
-"Large-Scale Construction and Analysis of Amorphous Porous Polymer Network Materials" [Link to be updated]()  
+"Large-Scale Construction and Analysis of Amorphous Porous Polymer Network Materials"  
 
 ![image](https://github.com/parkjunkil/PPN_Database/assets/88761984/0584bce0-6e0b-4eaa-a4c1-c30c896edf96)
 
