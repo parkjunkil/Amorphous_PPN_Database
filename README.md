@@ -1,6 +1,6 @@
 # Amorphous PPN Database Construction
 [[`Paper`](To be uploaded)]
-[[`Project Page`](https://parkjunkil.github.io/MOFFUSION/)]
+[[`Project Page`](https://parkjunkil.github.io/Amorphous_PPN_Database/)]
 
 Database and machine learning scripts used for the following work:
 
