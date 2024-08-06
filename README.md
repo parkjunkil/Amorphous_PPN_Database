@@ -58,4 +58,4 @@ Database and machine learning scripts used for the following work:
     
   * 'Schnet.ipynb' contains scripts for SchNet model, which is one of the most well-known graph-based models.
 
-  * Various methods have been utilized during data-processing and model training. More details can be found in the original paper. 
+  * Various methods have been utilized during data-processing and model training. More details can be found in each script and in the original paper. 
