@@ -34,7 +34,7 @@ Database and machine learning scripts used for the following work:
  
     
     
-# ML_Scripts
+# Machine Learning
 
   * We recommend to build a [`conda`](https://www.anaconda.com/products/distribution) environment. Please activate the environment while running the scripts.
     (You might need to specify a version of `torch` depending on your GPU driver.)
