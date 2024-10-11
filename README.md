@@ -1,5 +1,5 @@
 # Amorphous PPN Database Construction
-[[`Paper`](To be uploaded)]
+[[`Paper`](https://doi.org/10.1021/acsami.4c13221)]
 [[`Project Page`](https://parkjunkil.github.io/Amorphous_PPN_Database/)]
 
 Database and machine learning scripts used for the following work:
